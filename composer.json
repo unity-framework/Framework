@@ -1,0 +1,59 @@
+{
+    "name": "unity/framework",
+    "description": "Not yet",
+    "type": "library",
+    "keywords": ["unity framework", "unity", "php"],
+    "homepage": "https://github.com/unity-framework/framework",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Eleandro Duzentos",
+        "email": "eleandro@inbox.ru",
+        "homepage": "https://github.com/e200",
+        "role": "developer"
+      }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "monolog/monolog": "^1.23",
+        "guzzlehttp/guzzle": "^6.3",
+        "unity/config": "dev-master",
+        "unity/container": "dev-master",
+        "unity/contracts": "dev-master"
+    },
+    "repositories": [
+        {
+        "type": "vcs",
+        "url": "../container"
+        }
+        ,{
+          "type": "vcs",
+          "url": "../config"
+        },
+        {
+          "type": "vcs",
+          "url": "../reflector"
+        },
+        {
+          "type": "vcs",
+          "url": "../contracts"
+        },
+        {
+          "type": "vcs",
+          "url": "../support"
+        },
+        {
+          "type": "vcs",
+          "url": "../notator"
+        },
+        {
+          "type": "vcs",
+          "url": "../make_accessible"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "make/accessible": "dev-master"
+    }
+}
