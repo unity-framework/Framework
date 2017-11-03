@@ -57,6 +57,8 @@
         "make/accessible": "dev-master"
     },
     "autoload": {
-      "Unity\\Framework\\": "src" 
+      "psr-4": {
+        "Unity\\Framework\\": "src" 
+      }
     }
 }
