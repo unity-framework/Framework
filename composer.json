@@ -55,5 +55,8 @@
     "require-dev": {
         "phpunit/phpunit": "^6.4",
         "make/accessible": "dev-master"
+    },
+    "autoload": {
+      "Unity\\Framework\\": "src" 
     }
 }
