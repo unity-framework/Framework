@@ -1,6 +1,6 @@
 <?php
 
-namespace Unity\Framework\App;
+namespace Unity\Framework;
 
 use Unity\Component\Container;
 
